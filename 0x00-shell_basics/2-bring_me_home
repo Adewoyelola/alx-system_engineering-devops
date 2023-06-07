@@ -1,0 +1,4 @@
+echo '#!/bin/bash' > 2-bring_me_home echo 'cd ~' >> 2-bring_me_home
+echo 'echo "current directory is: $(pwd)"' >> 2-bring_me_home 
+chmod +x 2-bring_me_home
+./2-brin_me_home
