@@ -1,2 +1,2 @@
 #!/bin/bash
-message=$(echo "$acrostic" | grep -o "^.")
+cut -c 1 | paste -s -d '
